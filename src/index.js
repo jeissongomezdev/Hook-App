@@ -1,6 +1,8 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import { MemoHook } from "./components/06-memos/MemoHooks";
+// import { CallbackHook } from "./components/06-memos/CallbackHook";
+import { Padre } from "./components/07-tarea-memo/Padre";
+// import { MemoHook } from "./components/06-memos/MemoHooks";
 // import { Memorize } from "./components/06-memos/Memorize";
 
 // import { FormWithCustomHook } from "./components/02-useEffect/FormWithCustomHook";
@@ -16,4 +18,4 @@ import "./index.css";
 
 const container = document.getElementById("root");
 const root = createRoot(container);
-root.render(<MemoHook />);
+root.render(<Padre />);
