@@ -1,6 +1,7 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import { Memorize } from "./components/06-memos/Memorize";
+import { MemoHook } from "./components/06-memos/MemoHooks";
+// import { Memorize } from "./components/06-memos/Memorize";
 
 // import { FormWithCustomHook } from "./components/02-useEffect/FormWithCustomHook";
 // import { MultipleCustomHooks } from "./components/03-examples/MultipleCustomHooks";
@@ -15,4 +16,4 @@ import "./index.css";
 
 const container = document.getElementById("root");
 const root = createRoot(container);
-root.render(<Memorize />);
+root.render(<MemoHook />);
